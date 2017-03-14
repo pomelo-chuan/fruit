@@ -5,7 +5,5 @@
   align-items: center;
 }
 .gallery img {
-  margin-top: 2.5%;
-  width: 95%;
-  border-radius: 0.5rem;
+width: 100%;
 }

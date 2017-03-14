@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/gallery.css';
-
+import gallery from '../images/cakes.jpg'
 class Gallery extends Component {
   render() {
     return (
       <div className="gallery">
-          <img src="http://imglf2.ph.126.net/J0MTgx7UULkDMXuFbR844g==/1056094112635378262.jpg"/>
+          <img src={gallery}/>
       </div>
     );
   }
