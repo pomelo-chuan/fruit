@@ -17,8 +17,19 @@
     color: white;
     font-weight: 400;
     letter-spacing: 0.3rem;
+    animation: navIn 1s ease 1;
 }
 
+@keyframes navIn {
+    from{
+        color: #81C2D6;
+        letter-spacing: 0.8rem;
+    }
+    to{
+        color: white;
+        letter-spacing: 0.3rem;
+    }
+}
 
 /*清除浮动*/
 

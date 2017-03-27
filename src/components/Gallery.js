@@ -5,7 +5,8 @@ class Gallery extends Component {
   render() {
     return (
       <div className="gallery">
-          <img src="http://upload-images.jianshu.io/upload_images/3261015-7c292fa446aceb63.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="/" />
+      	<h3>端正果蔬园</h3>
+      	<p>高品质水果培植的倡导者</p>
       </div>
     );
   }

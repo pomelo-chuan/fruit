@@ -1,20 +1,57 @@
 .gallery {
+    background: url(../images/cakes-thin2.jpg);
+    background-size: cover;
+    background-repeat: cover;
+    width: 100vw;
+    height: 31vw;
+}
+.gallery h3 {
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    padding: 1rem 0.5rem;
+    text-shadow: 0px 0px 10px #8192D6;
+    animation: h3In 1s ease 1;
+}
+.gallery p {
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
     padding: 0.5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-shadow: 0px 0px 10px #8192D6;
+    animation: pIn 1s ease 1;
 }
+@keyframes h3In {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+} 
 
-.gallery img {
-    width: 100%;
-    box-shadow: 0px 0px 30px #f1f1f1;
-    border-radius: 0.5rem;
+@keyframes pIn {
+    0%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    70%{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
-
 @media screen and (min-width: 640px) {
     .gallery {
-        padding: 2.5rem 5rem;
     }
-    .gallery img {}
+
 }
